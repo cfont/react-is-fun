@@ -6,17 +6,12 @@ var style = {
   color: 'white',
   fontFamily: 'Arial'
 }
-const title = React.createElement(
-  'ul',
-  { id: 'title', className: 'header', style: style },
-  React.createElement(
-    'li',
-    {},
-    'item on our list'
-  )
-)
+
 
 ReactDOM.render(
-  title,
+  <div>
+    <h1>Hello World</h1>
+      <p>We're glad you're here!</p>
+  </div>,
   document.getElementById('root')
 )
