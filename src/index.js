@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 
 let skiData = {
   total: 50,
@@ -29,7 +29,7 @@ class SkiDayCounter extends Component {
   }
 }
 
-ReactDOM.render(
+render(
   <SkiDayCounter
     total={skiData.total}
     powder={skiData.powder}
