@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
 let skiData = {
@@ -8,7 +8,7 @@ let skiData = {
   goal: 100
 }
 
-class SkiDayCounter extends React.Component {
+class SkiDayCounter extends Component {
   render() {
     return (
       <section>
