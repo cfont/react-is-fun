@@ -9,8 +9,8 @@ var style = {
 
 
 ReactDOM.render(
-  <div>
-    <h1>Hello World</h1>
+  <div style={style}>
+    <h1 id="heading-element">Hello World</h1>
       <p>We're glad you're here!</p>
   </div>,
   document.getElementById('root')
