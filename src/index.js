@@ -24,6 +24,7 @@ class Library extends Component {
     this.state = {
       open: true
     }
+    this.toggleOpenClosed = this.toggleOpenClosed.bind(this)
   }
 
   toggleOpenClosed() {
