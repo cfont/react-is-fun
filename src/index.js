@@ -64,7 +64,7 @@ class Library extends Component {
           <div>
             {this.state.data.map((product) => {
               return (
-                <div>
+                <div key={product.id}>
                   <h3>Library Product of the Week!</h3>
                   <h4>{product.name}</h4>
                   <img src={product.image} height={100} alt={product.description} />
