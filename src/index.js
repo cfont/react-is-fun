@@ -27,6 +27,7 @@ class Library extends Component {
   }
 
   render() {
+    console.log(this.state)
     const {books} = this.props
     return (
       <div>
