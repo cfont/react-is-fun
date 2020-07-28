@@ -14,7 +14,7 @@ const Book = ({title, author, pages}) => {
 const Library = () => {
   return (
     <div>
-      Welcome to the Library
+      <Book title="The Sun also Rises" author="Ernest Hemingway" pages={260} />
     </div>
   )
 }
