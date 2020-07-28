@@ -97,6 +97,6 @@ class Library extends Component {
 }
 
 render(
-  <Library books={bookList} />,
+  <Library />,
   document.getElementById('root')
 )
