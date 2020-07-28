@@ -89,7 +89,19 @@ class Library extends Component {
   }
 } */
 
+class FavoriteColorForm extends Component {
+  render() {
+    return (
+      <form>
+        <label>Favorite Color:
+         <input type="color" />
+        </label>
+      </form>
+    )
+  }
+}
+
 render(
-  <Library books={bookList}/>,
+  <FavoriteColorForm />,
   document.getElementById('root')
 )
