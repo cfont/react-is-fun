@@ -2,7 +2,12 @@ import React, { Component } from 'react'
 import { render } from 'react-dom'
 import PropTypes from 'prop-types'
 
-let bookList = 0;
+let bookList = [
+  { title: "The Sun Also Rises", author: "Ernest Hemingway", pages: 260 },
+  { title: "Hunger", author: "Roxane Gay", pages: 320 },
+  { title: "White Teeth", author: "Zadie Smith", pages: 480 },
+  { title: "Cat's Cradle", author: "Kurt Vonnegut", pages: 304 },
+];
 
 const Book = ({title="No Title Provided", author="No Author", pages=0, freeBookmark}) => {
   return (
