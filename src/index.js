@@ -31,6 +31,7 @@ class Library extends Component {
     const {books} = this.props
     return (
       <div>
+        <h1>The library is {this.state.open ? 'open' : 'closed'}</h1>
         {books.map(
           (book, i) =>
             <Book
