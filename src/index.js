@@ -34,7 +34,17 @@ class Library extends Component {
   state = {
     open: true,
     freeBookmark: true,
-    hiring: false
+    hiring: false,
+    data: [],
+    loading: false
+  }
+
+  componentDidMount() {
+    // good place to fetch data
+    this.setState({ loading: true })
+    fetch('https://hplussport.com/api/products/order/price/sort/asc/qty/1')
+      .then(data => data.json())
+      .then(data => this.setState({data, loading: false}))
   }
 
   toggleOpenClosed = () => {
