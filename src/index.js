@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { render } from 'react-dom'
-import PropTypes from 'prop-types'
 
 let bookList = [
   { title: "The Sun Also Rises", author: "Ernest Hemingway", pages: 260 },
@@ -8,13 +7,6 @@ let bookList = [
   { title: "White Teeth", author: "Zadie Smith", pages: 480 },
   { title: "Cat's Cradle", author: "Kurt Vonnegut", pages: 304 },
 ];
-
-
-
-
-
-
-
 
 render(
   <Library books={bookList} />,
