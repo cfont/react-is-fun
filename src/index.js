@@ -31,6 +31,13 @@ const NotHiring = () =>
 
 
 class Library extends Component {
+
+  static defaultProps = {
+    books: [
+      {"title": "Tahoe Tales", "author":"Chet Whitley", "pages":1000}
+    ]
+  }
+
   state = {
     open: true,
     freeBookmark: true,
