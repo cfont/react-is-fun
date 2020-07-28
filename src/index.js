@@ -58,6 +58,21 @@ class Library extends Component {
     return (
       <div>
         {this.state.hiring ? <Hiring /> : <NotHiring />}
+        {this.state.loading ? (
+          "loading..."
+        ) : (
+          <div>
+            {this.state.data.map((product) => {
+              return (
+                <div>
+                  <h3>Library Product of the Week!</h3>
+                  <h4>{product.name}</h4>
+                  <img src={product.image} height={100} />
+                </div>
+              );
+            })}
+          </div>
+        )}
         <h1>The library is {this.state.open ? "open" : "closed"}</h1>
         <button onClick={this.toggleOpenClosed}>Change</button>
         {books.map((book, i) => (
