@@ -101,6 +101,13 @@ Library.propTypes = {
   books: PropTypes.array
 }
 
+Book.propTypes = {
+  title: PropTypes.string,
+  author: PropTypes.string,
+  pages: PropTypes.number,
+  freeBookmark: PropTypes.bool
+}
+
 render(
   <Library books={bookList} />,
   document.getElementById('root')
