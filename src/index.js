@@ -8,7 +8,7 @@ let bookList = [
   { title: "Cat's Cradle", author: "Kurt Vonnegut", pages: 304 },
 ];
 
-const Book = ({title, author, pages, freeBookmark}) => {
+const Book = ({title="No Title Provided", author="No Author", pages=0, freeBookmark}) => {
   return (
     <section>
       <h2>{title}</h2>
@@ -97,6 +97,6 @@ class Library extends Component {
 }
 
 render(
-  <Library />,
+  <Library books={bookList} />,
   document.getElementById('root')
 )
