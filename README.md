@@ -1,3 +1,13 @@
+# React Essential Training
+
+This code base is the result of completing the [React.js Essential Training course](https://www.linkedin.com/learning/react-js-essential-training-3/) with [Eve Porcello](https://www.linkedin.com/in/eveporcello/) on [LinkedIn Learning](https://www.linkedin.com/learning/).
+
+All of the git commits and messages are mine and peek into my brain as I went through the tutorial and understanind not only what she was doing but how it made sense to me as I learned.
+
+I felt like this was a great course but would highlight that is an "essential" type course so it isn't full and complete but it seems to try to find some balance between beginning and intermediate knowledge. After reading [The React Handbook](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/) on freeCodeCamp written by [Flavio Copes](https://twitter.com/flaviocopes), things made much more sense so I came back to this course and it felt much more eye-opening and useful. Take that with the grain of salt intended and realize that your mileage may very.
+
+-----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
