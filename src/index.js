@@ -20,7 +20,7 @@ const Book = ({title, author, pages}) => {
 
 class Library extends Component {
   render() {
-    const books = this.props.books
+    const {books} = this.props
     return (
       <div>
         {books.map(
