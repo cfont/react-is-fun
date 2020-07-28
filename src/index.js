@@ -19,6 +19,13 @@ const Book = ({title, author, pages}) => {
 }
 
 class Library extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      open: true
+    }
+  }
+
   render() {
     const {books} = this.props
     return (
