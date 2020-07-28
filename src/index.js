@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
+import Library from './Library'
 
 let bookList = [
   { title: "The Sun Also Rises", author: "Ernest Hemingway", pages: 260 },
