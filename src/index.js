@@ -19,7 +19,10 @@ const Book = ({title, author, pages}) => {
 }
 
 class Library extends Component {
-  state = { open: false }
+  state = {
+    open: true,
+    freeBookmark: true
+  }
 
   toggleOpenClosed = () => {
     this.setState(prevState => ({
