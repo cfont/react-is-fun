@@ -67,7 +67,7 @@ class Library extends Component {
                 <div>
                   <h3>Library Product of the Week!</h3>
                   <h4>{product.name}</h4>
-                  <img src={product.image} height={100} />
+                  <img src={product.image} height={100} alt={product.description} />
                 </div>
               );
             })}
