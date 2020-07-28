@@ -97,6 +97,10 @@ class Library extends Component {
   }
 }
 
+Library.propTypes = {
+  books: PropTypes.array
+}
+
 render(
   <Library books={bookList} />,
   document.getElementById('root')
