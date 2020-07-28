@@ -1,3 +1,5 @@
+import React from "react";
+
 export const Book = ({
   title = "No Title Provided",
   author = "No Author",
